@@ -1,0 +1,22 @@
+{
+  "todo": [
+    {
+      "food": "Cake",
+      "transportation": "Car",
+      "id": "1",
+      "d":
+    },
+    {
+      "title": "Buy Cooking",
+      "complete": false,
+      "priority": 2,
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "title": "Go Shopping",
+      "complete": false
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
