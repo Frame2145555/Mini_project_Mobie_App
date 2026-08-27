@@ -1,21 +1,39 @@
 {
-  "todo": [
+  "expenses": [
     {
-      "food": "Cake",
-      "transportation": "Car",
       "id": "1",
-      "d":
+      "title": "Dinner",
+      "price": 50,
+      "type": 1,
+      "date": "2026-08-26"
     },
     {
-      "title": "Buy Cooking",
-      "complete": false,
-      "priority": 2,
-      "id": "2"
+      "id": "2",
+      "title": "Bus fee",
+      "price": 15,
+      "type": 2,
+      "date": "2026-08-25"
     },
     {
       "id": "3",
-      "title": "Go Shopping",
-      "complete": false
+      "title": "Lunch",
+      "price": 60,
+      "type": 1,
+      "date": "2026-08-26"
+    },
+    {
+      "id": "4",
+      "title": "Shoes",
+      "price": 200,
+      "type": 3,
+      "date": "2026-08-26"
+    },
+    {
+      "id": "5",
+      "title": "Coffee",
+      "price": 40,
+      "type": 1,
+      "date": "2026-08-25"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
