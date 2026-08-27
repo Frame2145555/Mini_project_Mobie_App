@@ -25,7 +25,6 @@ class Expense {
     );
   }
 
-
   //convert model to json
   Map<String, dynamic> toJSON() {
     return {
