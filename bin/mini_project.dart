@@ -14,13 +14,13 @@ void main(List<String> arguments) {
       logic_Search.showexpenses();
       break;
     case '2':
-      logic_ADE.addExpense();
+      addExpense();
       break;
     case '3':
-      logic_ADE.editExpense();
+      editExpense();
       break;
     case '4':
-      logic_ADE.deleteExpense();
+      deleteExpense();
       break;
     case '5':
       logic_Search.Search();
@@ -29,13 +29,13 @@ void main(List<String> arguments) {
       logic_Search.filterByCategory();
       break;
     case '7':
-      logic_T.todayExpenses();
+      todayExpenses();
       break;
     case '8':
-      logic_T.totalExpenses();
+      totalExpenses();
       break;
     case '9':
-      logic_T.limitExpenses();
+      limitExpenses();
       break;
     case '10':
       print('Exiting...');
@@ -60,3 +60,13 @@ void show() {
   print('9. Limit expenses');
   print('10. Exit');
 }
+
+showexpenses() {}
+addExpense() {}
+editExpense() {}
+deleteExpense() {}
+Search() {}
+filterByCategory() {}
+todayExpenses() {}
+totalExpenses() {}
+limitExpenses() {}
